@@ -5,10 +5,11 @@
 class Linea
 {
 private:
+    int id;
     float d;
     float m;
-    Punto *p1;
-    Punto *p2;
+    Punto* p1;
+    Punto* p2;
 public:
     static int num_lineas;
     Linea();
